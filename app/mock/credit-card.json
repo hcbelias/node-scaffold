@@ -1,0 +1,83 @@
+ {
+     "amount": "000000250000",
+     "orderId": "o10008",
+     "profile": {
+         "phoneNumber": "31982345678",
+         "id": "190096",
+         "email": "bvieira@avenuecode.com"
+     },
+     "channel": "agent",
+     "locale": "en",
+     "transactionId": "o10008-pg10034-1547732149907",
+     "transactionTimestamp": "2019-01-17T13:35:49+0000",
+     "transactionType": "0100",
+     "paymentId": "pg10034",
+     "cardDetails": {
+         "expirationYear": "2023",
+         "number": "4032034171237970",
+         "holderName": "teste",
+         "cvv": "123",
+         "expirationMonth": "11",
+         "type": "visa"
+     },
+     "paymentMethod": "card",
+     "shippingAddress": {
+         "country": "BR",
+         "lastName": "teste",
+         "address3": "AC",
+         "address2": "Rua almeida",
+         "city": "Lourdes",
+         "address1": "BH",
+         "dynamicProperties": null,
+         "prefix": "",
+         "companyName": "",
+         "jobTitle": "",
+         "postalCode": "30180101",
+         "county": "AC",
+         "suffix": "",
+         "firstName": "Vieira",
+         "phoneNumber": "31982345678",
+         "faxNumber": "",
+         "middleName": "",
+         "state": "MG",
+         "email": "bvieira@avenuecode.com"
+     },
+     "gatewaySettings": {
+         "filteredFields": ["merchantId", "paymentMethodTypes"],
+         "merchantId": "merchant id",
+         "paymentMethodTypes": "card"
+     },
+     "siteId": "100001",
+     "billingAddress": {
+         "country": "BR",
+         "lastName": "teste",
+         "address3": "AC",
+         "address2": "Rua almeida",
+         "city": "Lourdes",
+         "address1": "BH",
+         "dynamicProperties": null,
+         "prefix": "",
+         "companyName": "",
+         "jobTitle": "",
+         "postalCode": "30180101",
+         "county": "AC",
+         "suffix": "",
+         "firstName": "Vieira",
+         "phoneNumber": "31982345678",
+         "faxNumber": "",
+         "middleName": "",
+         "state": "MG",
+         "email": "bvieira@avenuecode.com"
+     },
+     "currencyCode": "USD",
+     "gatewayId": "ACCashPaymentGateway",
+     "authorizationResponse": {
+         "_id": "5c4084b6894c870004120f35",
+         "responseCode": "1000",
+         "responseDescription": "Avenue Code Payment Gateway Processor",
+         "responseReason": "Testing Payment Gateway",
+         "hostTransactionId": "10.69.141.3",
+         "merchantTransactionId": "o10008-pg10034-1547732149907",
+         "token": "lLMMdHRe8nA38R5v--rYiN1qF1YJmEK6"
+     }
+ }

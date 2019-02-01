@@ -1,0 +1,42 @@
+{
+    "transactionType": "0600",
+    "customProperties": null,
+    "paymentRequests": [{
+        "amount": null,
+        "orderId": null,
+        "profile": null,
+        "channel": null,
+        "locale": null,
+        "transactionId": "o10023-pg10082-1548246734285",
+        "transactionTimestamp": "2019-01-23T12:32:14+0000",
+        "transactionType": null,
+        "customProperties": null,
+        "paymentId": "pg10082",
+        "cardDetails": {
+            "giftCardNumber": "342334",
+            "giftCardPin": "123"
+        },
+        "gatewaySettings": {
+            "giftCardPinMaxLength": "4",
+            "paymentMethodTypes": "physicalGiftCard,generic",
+            "giftCardMaxLength": "19",
+            "giftCardPinRequired": true
+        },
+        "paymentMethod": "physicalGiftCard",
+        "shippingAddress": null,
+        "siteId": null,
+        "billingAddress": null,
+        "currencyCode": null,
+        "referenceInfos": null,
+        "gatewayId": "ACGenericPaymentGateway",
+        "referenceInfo": null
+    }],
+    "orderId": "o10023",
+    "profile": {
+        "id": "190574"
+    },
+    "channel": "agent",
+    "siteId": "100001",
+    "locale": "en",
+    "currencyCode": "USD"
+}
